@@ -1624,10 +1624,10 @@
 
 	body {
 		background-color: #292929;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(90deg, #292929 15%, #F05B32 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(90deg, #292929 15%, #F05B32 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(90deg, #292929 15%, #F05B32 85%);
-		background-image: url("images/overlay.png"), linear-gradient(90deg, #292929 15%, #F05B32 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(0deg, #292929 15%, #F05B32 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(0deg, #292929 15%, #F05B32 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(0deg, #292929 15%, #F05B32 85%);
+		background-image: url("images/overlay.png"), linear-gradient(0deg, #292929 15%, #F05B32 85%);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
